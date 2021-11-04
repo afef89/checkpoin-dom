@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stye.css">
+    <title>shopping Cart</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="productContainer col-xs-6 ">
+            <div class="productImage">
+                <img src="assests/im1.jpeg" class='img'>
+            </div>
+            <div class="productTitle">
+                <h3>Pc Hp</h3>
+            </div>
+            <div class="productPrice">
+                <h3>1000,000</h3>
+            </div>
+            <div>
+                <button id="min-btn">-</button>
+                <p id="quantity">0</p>
+                <button id="plus-btn">+</button>
+              </div>
+            <div class="addToCartBtn">
+                Add to Cart
+            </div>
+        </div>
+        <div class="productContainer col-xs-6">
+            <div class=" productImage">
+                <img src="assests/im2.jpeg" class='img'>
+            </div>
+            <div class=" productTitle">
+                <h3>Pc dell</h3>
+            </div>
+            <div class=" productPrice">
+                <h3>900,000</h3>
+            </div>
+            <div>
+                <button id="min-btn">-</button>
+                <p id="quantity2">0</p>
+                <button id="plus-btn">+</button>
+              </div>
+            <div class="addToCartBtn">
+                Add to Cart
+            </div>
+        </div>
+    </div>
+
+    <div class="cartContainer">
+        <div class="row">
+            <div class="col-xs-3 heading"> Product</div>
+            <div class="col-xs-3 heading"> Title</div>
+            <div class="col-xs-3 heading"> Price</div>
+            <div class="col-xs-3 heading">Action</div>
+        </div>
+
+    </div>
+
+    <div class="row totalPrice">
+        <div class="col-xs-3 "> </div>
+        <div class="col-xs-3 "> </div>
+
+        <div class="col-xs-3 headingTop"> Total </div>
+        <div class="col-xs-3 headingTop cartTotalPrice"> 0</div>
+    </div>
+
+
+    <script defer src='index.js'></script>
+
+</body>
+
+</html>
+
